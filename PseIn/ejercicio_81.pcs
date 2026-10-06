@@ -1,0 +1,17 @@
+Algoritmo FactoresPrimos
+	Definir numero, divisor Como Entero
+	
+	Escribir "Ingresa un numero entero:"
+	Leer numero
+	
+	divisor <- 2
+	
+	Mientras numero > 1 Hacer
+		Mientras numero MOD divisor = 0 Hacer
+			Escribir divisor
+			numero <- numero / divisor
+		FinMientras
+		
+		divisor <- divisor + 1
+	FinMientras
+FinAlgoritmo

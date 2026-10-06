@@ -1,0 +1,25 @@
+Algoritmo Rotulo
+		Definir frase Como Cadena
+		Definir i, ancho Como Entero
+		
+		Escribir "Ingresa una frase:"
+		Leer frase
+		
+		ancho <- Longitud(frase) + 4
+		
+		Para i <- 1 Hasta ancho Hacer
+			Escribir Sin Saltar "*"
+		FinPara
+		
+		Escribir ""
+		Escribir Sin Saltar "* "
+		Escribir Sin Saltar frase
+		Escribir Sin Saltar " *"
+		Escribir ""
+		
+		Para i <- 1 Hasta ancho Hacer
+			Escribir Sin Saltar "*"
+		FinPara
+		
+		Escribir ""
+FinAlgoritmo
